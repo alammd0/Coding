@@ -7,47 +7,47 @@ using namespace std;
 
 int main()
 {
-    // int a;
-    // cout << "Enter a number: "; 
+    int a;
+    cout << "Enter a number: "; 
 
-    // cin >> a;  
+    cin >> a;  
 
-    // if (a % 2 == 0) {
-    //     cout << "even";  
-    // } else {
-    //     cout << "odd";  
-    // }
+    if (a % 2 == 0) {
+        cout << "even";  
+    } else {
+        cout << "odd";  
+    }
 
 
     // multiplication
 
-    // int a = 10 ; 
-    // int b = 10 ; 
+    int a = 10 ; 
+    int b = 10 ; 
 
-    // cout << a * b << endl;
+    cout << a * b << endl;
 
     // prameter 
     
-    // int len  = 8 ;
+    int len  = 8 ;
 
-    // int wid = 5 ; 
+    int wid = 5 ; 
 
-    // int prem = 2 * (len + wid) ;
+    int prem = 2 * (len + wid) ;
 
-    // cout << prem << endl;
+    cout << prem << endl;
 
 
     // simple interset 
 
     // principle, rate, time (p r t) ;
 
-    // int p = 1000 ; 
-    // int r = 5 ;
-    // int t = 1 ; 
+    int p = 1000 ; 
+    int r = 5 ;
+    int t = 1 ; 
 
-    // int pi = (p * r * t) / 100 ;
+    int pi = (p * r * t) / 100 ;
 
-    // cout << pi ;  
+    cout << pi ;  
 
 
     // 3-max
@@ -75,8 +75,6 @@ int main()
             cout << "Maximum number is : " << c << endl;
         }
     }
-    
-
 
     return 0;
 }
